@@ -31,7 +31,7 @@ controller:
 
   image:
     ## The image repository of the Ingress controller.
-    repository: nginx/nginx-ingress
+    repository: localhost:5000/nginx-ingress
 
     ## The tag of the Ingress controller image.
     tag: "1.12.0"
